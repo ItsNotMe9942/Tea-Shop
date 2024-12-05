@@ -14,14 +14,33 @@ body {
   color: pink;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 22px;
+}
+
 header img {
   height: 50px;
 }
+
+
 
 main {
   display: flex;
   justify-content: center;
 }
+
 
 main .hero-img {
   display: flex;
