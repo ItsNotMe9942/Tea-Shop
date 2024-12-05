@@ -1,0 +1,58 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-size: 1.2em;
+  color: pink;
+}
+
+header img {
+  height: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main .hero-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('./images/img-mission-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  
+}
+
+.hero-img .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0.4em;
+  text-align: center;
+  justify-content: space-between;
+}
+
+main .hero-img h2 {
+  font-size: clamp(1.5rem, 4vw, 2rem); /* Responsive font size */
+  color: green;
+  padding-bottom: 0.4em;
+}
+
+main .hero-img h4 {
+  font-size: clamp(1rem, 2.5vw, 1.4rem); /* Responsive font size */
+  color: pink;
+}
+
