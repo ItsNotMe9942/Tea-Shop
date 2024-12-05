@@ -6,7 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
+  text-align: center;
 }
 
 body {
@@ -75,3 +75,21 @@ main .hero-img h4 {
   color: pink;
 }
 
+.tea-of-the-month {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+
+.tea-of-the-month .tea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tea figure img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
