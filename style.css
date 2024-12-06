@@ -34,8 +34,6 @@ header img {
   height: 50px;
 }
 
-
-
 main {
   display: flex;
   justify-content: center;
@@ -79,6 +77,7 @@ main .hero-img h4 {
   width: 1000px;
   margin: 0 auto;
   padding-top: 75px;
+  margin-bottom: 50px;
 }
 
 .tea-of-the-month .tea {
@@ -92,4 +91,44 @@ main .hero-img h4 {
   width: 300px;
   height: 200px;
   padding-bottom: 10px;
+}
+
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url('./images/img-locations-background.jpg');
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations-container {
+  display: flex;
+  opacity: 1;
+  gap: 40px;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+#locations h2 {
+  color: seashell;
+  background: transparent;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.location {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
 }
