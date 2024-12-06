@@ -132,3 +132,16 @@ main .hero-img h4 {
   justify-content: space-around;
   margin: 0 auto;
 }
+
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+footer .copyright {
+  align-self: flex-start;
+}
