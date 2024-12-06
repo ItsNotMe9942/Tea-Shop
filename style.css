@@ -21,6 +21,12 @@ header {
   align-items: center;
   border-bottom: 1px solid seashell;
   height: 69px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  opacity: 1;
 }
 
 nav ul {
@@ -49,7 +55,7 @@ main .hero-img {
   background-position: center;
   height: 700px;
   width: 1200px;
-  
+  margin-top: 69px;
 }
 
 .hero-img .text {
@@ -73,14 +79,14 @@ main .hero-img h4 {
   color: pink;
 }
 
-.tea-of-the-month {
+#tea-of-the-month {
   width: 1000px;
   margin: 0 auto;
   padding-top: 75px;
   margin-bottom: 50px;
 }
 
-.tea-of-the-month .tea {
+#tea-of-the-month .tea {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
